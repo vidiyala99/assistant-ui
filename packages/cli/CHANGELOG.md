@@ -1,5 +1,15 @@
 # assistant-ui
 
+## 0.0.136
+
+### Patch Changes
+
+- [#10579](https://github.com/assistant-ui/assistant-ui/pull/10579) [`688fd30`](https://github.com/assistant-ui/assistant-ui/commit/688fd30d87309876105bd2ac6eafd18aa8f9f4fe) - Run a fixed shadcn version (`shadcn@4.23.0`) and `skills@1.7.4` instead of the latest release, so a new upstream release cannot change what `create`, `init`, `add` and the skills install do. `--preset` URLs must now use https (http only on localhost, 127.x and [::1]) and carry no credentials; the CLI checks this before it scaffolds anything. ([@Yonom](https://github.com/Yonom))
+
+- [#10580](https://github.com/assistant-ui/assistant-ui/pull/10580) [`bf9b1e2`](https://github.com/assistant-ui/assistant-ui/commit/bf9b1e21049863a7ec28ee0ccd5bed7918991871) - the cloud-harness starter's chat route refuses cross-site requests ([@Yonom](https://github.com/Yonom))
+- Updated dependencies [[`a0af48b`](https://github.com/assistant-ui/assistant-ui/commit/a0af48b44d85ce31dcad66e1a65d44767e1553a5)]:
+  - setup-agent@0.2.1
+
 ## 0.0.135
 
 ### Patch Changes
